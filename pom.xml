@@ -26,8 +26,8 @@
     </licenses>
     <url>https://github.com/ispasov/macstadium-orka-plugin</url>
     <scm>
-        <connection>scm:git:git://github.com/ispasov/${project.artifactId}-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:ispasov/${project.artifactId}-plugin.git</developerConnection>
+        <connection>scm:git:https://github.com/ispasov/macstadium-orka-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/ispasov/macstadium-orka-plugin.git</developerConnection>
         <url>https://github.com/ispasov/${project.artifactId}-plugin</url>
         <tag>HEAD</tag>
     </scm>
