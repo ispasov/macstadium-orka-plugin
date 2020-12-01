@@ -24,11 +24,11 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <url>https://github.com/jenkinsci/macstadium-orka-plugin</url>
+    <url>https://github.com/ispasov/macstadium-orka-plugin</url>
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+        <connection>scm:git:git://github.com/ispasov/${project.artifactId}-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:ispasov/${project.artifactId}-plugin.git</developerConnection>
+        <url>https://github.com/ispasov/${project.artifactId}-plugin</url>
         <tag>HEAD</tag>
     </scm>
 
