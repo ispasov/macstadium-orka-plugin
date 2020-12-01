@@ -22,6 +22,6 @@ jobs:
         token: '${{ secrets.GITHUB_TOKEN }}'
     - uses: s4u/maven-settings-action@v2.2.0
       with:
-        servers: '[{"id": "goshjo", "username": "pesho", "password": "${{ secrets.PESHO }}"}]'
+        servers: '[{"id": "goshjo", "username": "${{ github.actor }}", "password": "${{ secrets.PESHO }}"}]'
     - name: Build with Maven
       run: cat ~/.m2/settings.xml 
