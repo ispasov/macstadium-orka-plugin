@@ -20,5 +20,8 @@ jobs:
     - uses: oleksiyrudenko/gha-git-credentials@v2-latest
       with:
         token: '${{ secrets.GITHUB_TOKEN }}'
+    - uses: s4u/maven-settings-action@v2.2.0
+      with:
+        servers: '[{"id": "goshjo", "username": "pesho", "password": "${{ secrets.PESHO }}"}]'
     - name: Build with Maven
-      run: mvn -B release:prepare
+      run: cat ~/.m2/settings.xml 
